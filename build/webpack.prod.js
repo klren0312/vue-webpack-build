@@ -5,7 +5,7 @@ const common = require('./webpack.base.js')
 const {
   CleanWebpackPlugin
 } = require('clean-webpack-plugin')
-const Fiber = require('fibers')
+
 const OptimizeCSSAssetsPlugin = require('optimize-css-assets-webpack-plugin')
 const TerserPlugin = require('terser-webpack-plugin')
 
